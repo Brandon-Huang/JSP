@@ -1,0 +1,42 @@
+<HTML>
+<HEAD>
+<TITLE>求职者</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=gb2312"> </HEAD>
+<BODY bgcolor="#FFBFFF">
+<P align="left"><FONT size="5">申请表</FONT> 
+<HR color="#FF9F00" ><!--hr表示划线-->
+<FORM ACTION="http://www.sina.com.cn" METHOD="POST">
+<!--form表单的标签，其中有两个属性action的值是指定表单选择好的数据提交的url,即地址，method的值是指定以哪种方法提交
+其中一般是get，提交数据量比较小一般是240-255个字符之内，信息是显示的带在url后面，和post是一种加密提交的方式适合大量的数据提交-->
+  <p>姓名：
+    <INPUT TYPE="TEXT" ID="firstname"><!--input标签用于产生一个文本框-->
+</p>
+  <p>感兴趣的职位：</p>
+  <P>
+<INPUT TYPE=RADIO NAME="CONTROL1" VALUE="0" CHECKED>Web 设计人员
+<!--其中input标签根据type的值不同分为text文本框，button按钮，radio单选，checkbox复选，submit提交，reset重置等-->
+<INPUT TYPE=RADIO NAME="CONTROL1" VALUE="1" >Web 管理员
+<INPUT TYPE=RADIO NAME="CONTROL1" VALUE="2" >Web 开发人员
+<P>其他要求<BR>
+    <TEXTAREA	NAME="CONTROL3"	COLS="30"	ROWS="5">包括薪水待遇、工作地点等。
+
+</TEXTAREA><!--textarea标签用于定义多行文本框-->
+<P>Email:  
+  <input type="text" name="textfield" />
+<P><INPUT NAME="CONTROL4" TYPE=CHECKBOX CHECKED>发送确认信息
+<BR>
+经验
+<SELECT NAME="CONTROL2"><!--select用于定义下拉列表的标签，option是其中的选项-->
+  <OPTION>无经验</OPTION>
+  <OPTION>1 年</OPTION>
+  <OPTION>3 年</OPTION>
+  <OPTION>5 年</OPTION>
+</SELECT>
+<P>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--此处加了多个空格-->
+<INPUT name="提交" TYPE=submit VALUE=" 确 定 ">
+&nbsp;&nbsp;&nbsp;
+<INPUT name="重置" TYPE=reset VALUE=" 重 置 ">
+</FORM>
+</BODY>
+</HTML>
